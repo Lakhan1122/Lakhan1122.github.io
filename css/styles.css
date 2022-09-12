@@ -149,7 +149,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgb(19, 17, 17);
     transition: 0.5s;
   }
 }
