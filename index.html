@@ -1,49 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio || Lakhan </title>
-  <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://image.shutterstock.com/shutterstock/photos/328767047/display_1500/stock-photo-lightning-letter-l-328767047.jpg" />
+    <link rel="stylesheet" href="./css/styles.css" />
 
-  <!-- ====header section -->
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Lakhan Gurnule | Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <!-- &#60;  /&#62; -->
+          <a href="#home" class="nav-logo"
+            >Lakhan</a>
+        </div>
 
-  <div id="header">
-    <div class="container">
-      <nav>
-        <img src="" class="logo">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Education</a></li>
-          <li><a href="">Skill</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link home active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link about">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
       </nav>
-      <div class="header-text">
-        <h1>Hi, I'm <span>Lakhan</span><br>Java Backend Developer </h1>
-      </div>
-    </div>
-  </div>
+    </header>
 
-  <!-- -------------About section------- -->
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="about-col-1">
-      <img src="images/lakhanPic.jpg" alt="">
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid section" id="home">
+        <div class="home-data">
+          <h2 class="home-title">
+            Hi 👋,<br />I'am <span class="home-title-color">Lakhan</span><br />
+            JAVA Backend Developer
+          </h2>
+
+          <a
+            href="https://drive.google.com/file/d/1Y7Z4SWECRM02kt4_Oc94XwU5jmsFVejV/view?usp=sharing"
+            target="_blank"
+            class="button"
+            >Resume</a
+          >
+        </div>
+
+        <div class="home-social">
+          <a
+            href="https://www.linkedin.com/in/lakhan-gurnule-95135a247/"
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/Lakhan1122"
+            target="_blank"
+            class="home-social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home-img">
+          <img class="home-imgsrc" src="./img/LAKHN1234new - Copy new.jpg" alt="" />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+              <div class="z12z" style="text-align: center">
+            <p class="about-text">
+              Hello stranger! 👋, my name is Lakhan Gurnule and I am a Java Backend Developer, passionate
+               about building digital products that improve everyday experience for people.
+       I love to work on exciting projects that test what I've learnt, whilst being exposed to the power
+       and potential of the ever-evolving technologies around us. I'm always looking for better, and more 
+       importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.
+            </p>
+            <br />
+            <p class="about-subtitle">
+              Drop a mail @ lakhangurnule1122@gmail.com
+              <i
+                style="color: #4070f4; font-size: 1.2rem; cursor: pointer"
+                class="bx bx-copy"
+                id="copy"
+              ></i>
+            </p>
+          </div>
+        
+      </section>
+
+              <!-- ===== EDUCATION ===== -->
+              <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="educ">
+                  <p class="educ1">Student [Full-Stack Web development]</p>
+                  <b class="educ2">Masai School (Remote)</b>
+                  <p class="educ3">March 2022 - Oct 2022</p>
+                <p class="educ4">Joined the Military coding school to learn Full Stack Development and DSA.
+                   Also get to learn lot more other skills as well.</p>
+                  </div>
+                
+                <div class="educ">
+                  <p class="educ1">B.Com(Computer Application)</p>
+                  <b class="educ2">RTMNU,Nagpur</b>
+                  <p class="educ3">July 2018 - July 2021</p>
+                
+                  </div>
+               
+                <div class="educ">
+                  <p class="educ1">Student [HSC (Science)]</p>
+                <b class="educ2">N H college, Bramhpuri</b>
+                <p class="educ3">June 2017 - June 2018</p>
+              <!-- <p class="educ4">Studied 12th in Mathematics, Physics and Chemistry.</p> -->
+              </div>
+                
+              </section>
+
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container bd-grid">    
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-html5 skills-icon"></i>
+                <span class="skills-name">HTML</span>
+              </div>             
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-css3 skills-icon"></i>
+                <span class="skills-name">CSS</span>
+              </div>            
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-javascript skills-icon"></i>
+                <span class="skills-name">JAVASCRIPT</span>
+              </div>              
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-bootstrap skills-icon"></i>
+                <span class="skills-name">BOOTSTRAP</span>
+              </div>             
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class='bx bxl-java skills-icon'></i>
+                  <span class="skills-name">JAVA</span>
+              </div>            
+            </div>
+             
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./img/mysql.png" alt="">
+                <span class="skills-name">MYSQL</span>
+              </div>            
+            </div>
+            
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./img/hibernet.png" alt="">
+                <span class="skills-name">HIBERNATE</span>
+              </div>            
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class='bx bxl-spring-boot skills-icon'></i>
+                <span class="skills-name">SPRING BOOT</span>
+              </div>            
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-spring-boot skills-icon"></i>
+                <span class="skills-name">SPRING</span>
+              </div>            
+            </div>
+            
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./img/mvc.png" alt="">
+                <span class="skills-name">MVC</span>
+              </div>            
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./img/rest.png" alt="">
+                <span class="skills-name">REST</span>
+              </div>            
+            </div>
+            
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-git skills-icon"></i>
+                <span class="skills-name">GIT</span>
+              </div>            
+            </div>
+
+             <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxs-data skills-icon"></i>
+                <span class="skills-name">DATA STRUCTURE</span>
+              </div>            
+            </div>
+
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bx-data skills-icon"></i>
+                <span class="skills-name">ALGORITHMS</span>
+              </div>            
+            </div>
+        </div>
+      </section>
+
+      <!--===== Projects =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+
+                           <!-- ======= PROJECT1 ======= -->
+
+                           <div class="project-img">
+                            <div class="diver"> <img class="imageheight" src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="Sephora" /></div>
+                             <p class="project-title">Kindmeal.my clone</p>
+                             <p class="project-subtitle">
+                              KindMeal is Malaysia's (and possibly the world's!) pioneering meat-free lifestyle platform.
+                                 <br/>
+                               <br />
+                               A collaborative project, built in 5 days by a team of 6 developers
+                               <br />
+                               <br />HTML | CSS  | Javascript
+                             </p>
+                             <div class="project-btns">
+                               <a
+                                 href="https://github.com/raushanraj901/Unit_3_Project_kindmeal"
+                                 target="_blank"
+                                 class="small-btn button"
+                               >
+                                 Code<i class="bx bxl-github"></i>
+                               </a>
+                               <a
+                                 href="https://cozy-dieffenbachia-cc5d9c.netlify.app"
+                                 target="_blank"
+                                 class="small-btn button"
+                               >
+                                 Live<i class="bx bx-link-external"></i>
+                               </a>
+                             </div>
+                           </div>
+
+
+          
+
+                                     <!-- ======= PROJECT2 ======= -->
+
+
+                                     <div class="project-img">
+                                      <div class="diver"> <img class="imageheight" src="./img/project1.png" alt="HindustanTimes" /></div>
+                                       <p class="project-title">HindustanTimes clone</p>
+                                       <p class="project-subtitle">
+                                         Hindustan Times is an Indian English-language daily newspaper.
+                                          It played integral roles in the Indian independence movement as a nationalist daily. 
+                                          <br/>
+                                         <br />
+                                         A collaborative project, built in 5 days by a team of 6 developers
+                                          <br />
+                                         <br />HTML | CSS  | Javascript
+                                       </p>
+                                       <div class="project-btns">
+                                         <a
+                                           href="https://github.com/PrafulTelgote/Project_Hindustantimes"
+                                           target="_blank"
+                                           class="small-btn button"
+                                         >
+                                           Code<i class="bx bxl-github"></i>
+                                         </a>
+                                         <a
+                                           href="https://hindustantimesproject.netlify.app"
+                                           target="_blank"
+                                           class="small-btn button"
+                                         >
+                                           Live<i class="bx bx-link-external"></i>
+                                         </a>
+                                       </div>
+                                     </div>
+
+          
+          </div>
+        
+      </section>
+
+      <!--===== CONTACT =====-->
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-container bd-grid">
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Name" class="contact-input" />
+            <input type="mail" placeholder="Email" class="contact-input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input
+              type="button"
+              value="Contact"
+              class="contact-button button"
+            />
+          </form>
+        </div>
+      </section> -->
+    </main>
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p style="font-size:30px;display: inline;" class="footer-title fffff">Lakhan Gurnule</p>
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/lakhan-gurnule-95135a247/"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-linkedin">
+            <br />
+            <p class="fffff">LinkedIn</p></i
+          ></a
+        >
+        <a
+          href="https://github.com/Lakhan1122"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-github">
+            <br />
+            <p class="fffff">Github</p>
+            </i
+          ></a
+        >
+        <a
+          href="https://www.instagram.com/l_a_k_h_a__n/"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bxl-instagram">
+            <br />
+            <p class="fffff">Instagram</p>
+            </i
+          ></a
+        >
+        <a
+          href="mailto:lakhangurnule1122@gmail.com"
+          target="_blank"
+          class="footer-icon"
+          ><i class="bx bx-mail-send">
+            <br />
+            <p class="fffff">E-mail</p>
+            </i
+          ></a
+        >
+        <a href="tel:+918329532666" target="_blank" class="footer-icon"
+          ><i class="bx bx-phone">
+            <br />
+            <p class="fffff">Phone</p>
+            </i
+          ></a
+        >
       </div>
-      <div  class="about-col-2">
-        <h1 class="sub-title">About Me</h1>
-        <p>Hello stranger! 👋, My name is Lakhan Gurnule and I am a Java Backend Developer, passionate about building digital products that improve everyday experience for people. I love to work on exciting projects that test what I've learnt, whilst being exposed to the power and potential of the ever-evolving technologies around us. I'm always looking for better, and more importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.</p>
+      <div id="last" class="footer-social">
+        <div class="footer-social" id="lastdiv">
+          <i  class="bx bx-mail-send footer-icon" ></i>
+          <p class="fffff"> lakhangurnule1122@gmail.com </p>        
+        </div>
+
+        <div class="footer-social" id="lastdiv">
+          <i  class="bx bx-phone footer-icon"></i>
+          <p class="fffff">+918329532666</p>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
- 
-</body>
+      <p class="trance" style="text-align:center;">&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
+
