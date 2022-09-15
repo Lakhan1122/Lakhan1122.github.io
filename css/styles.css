@@ -253,6 +253,8 @@ img {
 .home-imgsrc{
   width:100%;
   border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 20px;
   
 }
 /*BUTTONS*/
