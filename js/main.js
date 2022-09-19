@@ -96,3 +96,8 @@ sr.reveal( ".project-subtitle", { delay: 300 } );
 
 /*SCROLL CONTACT*/
 // sr.reveal(".contact-input", { interval: 200 });
+
+
+GitHubCalendar(".calendar", "Lakhan1122");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "Lakhan1122", { responsive: true });
