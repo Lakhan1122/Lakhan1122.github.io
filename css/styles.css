@@ -728,7 +728,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     text-align: right;
     padding: 0 14px 10px 0;
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 
 .contrib-legend .legend {
