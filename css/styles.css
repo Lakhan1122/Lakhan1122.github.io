@@ -871,3 +871,71 @@ text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 11px;
 }
+
+
+/* statastics */
+
+.outer{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+  -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  background: #521798;
+  margin-left: 80px;
+
+}
+.inner{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background: black;
+  align-items: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+              -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
+              0.5px 0.5px 0px  rgba(255, 255, 255, 1),
+              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+ 
+  
+}
+.number{
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+}
+.statistic{
+  padding-top: 50px;
+  /* background: white; */
+
+}
+
+#datawork{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 3%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: -50px;
+}
+.circle1>h3{
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  margin-top: -10px;
+}
+.circle1>p{
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: -20px;
+}
