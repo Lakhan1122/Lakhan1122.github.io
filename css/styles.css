@@ -940,27 +940,18 @@ text.ContributionCalendar-label {
   color: white;
   margin-top: -20px;
 }
-.circle1>div{
-  margin-left: 20px;
- 
-  justify-content: center;
-}
+
 
 @media screen and (min-device-width: 300px) 
 and (max-device-width: 767px) { 
   #datawork{
     grid-template-columns: repeat(2, 1fr);
+   
    /* padding: 10px; */
-   gap: 10px;
+   gap: 5px;
+   
   }
-  .outer{
-    margin: 0px;
-    /* padding: 0; */
-  }
-  .inner{
-    margin: 0;
-    padding: 0;
-  }
+ 
 }
 @media screen and (min-device-width: 768px) {
   #datawork{
@@ -974,7 +965,15 @@ and (max-device-width: 767px) {
 @media screen and (min-width: 1024px) {
   #datawork{
     grid-template-columns: repeat(4, 1fr);
+    margin: auto;
     }
-    
-   
+    .circle1{
+     margin: 0;
+     
+    }
+    .circle1>div{
+      margin-left: 80px;
+     
+      justify-content: center;
+    }
 }
