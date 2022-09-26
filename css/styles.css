@@ -884,7 +884,7 @@ text.ContributionCalendar-label {
   -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
   padding: 10px;
   background: #521798;
-  margin-left: 80px;
+  margin: 0;
 
 }
 .inner{
@@ -940,6 +940,11 @@ text.ContributionCalendar-label {
   color: white;
   margin-top: -20px;
 }
+.circle1>div{
+  margin-left: 20px;
+ 
+  justify-content: center;
+}
 
 @media screen and (min-device-width: 300px) 
 and (max-device-width: 767px) { 
@@ -964,4 +969,12 @@ and (max-device-width: 767px) {
   .outer{
     margin: 0;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  #datawork{
+    grid-template-columns: repeat(4, 1fr);
+    }
+    
+   
 }
