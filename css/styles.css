@@ -875,6 +875,7 @@ text.ContributionCalendar-label {
 
 /* statastics */
 
+
 .outer{
   height: 140px;
   width: 140px;
@@ -938,4 +939,29 @@ text.ContributionCalendar-label {
   font-size: 20px;
   color: white;
   margin-top: -20px;
+}
+
+@media screen and (min-device-width: 300px) 
+and (max-device-width: 767px) { 
+  #datawork{
+    grid-template-columns: repeat(2, 1fr);
+   /* padding: 10px; */
+   gap: 10px;
+  }
+  .outer{
+    margin: 0px;
+    /* padding: 0; */
+  }
+  .inner{
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-device-width: 768px) {
+  #datawork{
+  grid-template-columns: repeat(4, 1fr);
+  }
+  .outer{
+    margin: 0;
+  }
 }
