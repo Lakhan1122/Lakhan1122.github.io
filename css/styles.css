@@ -951,6 +951,9 @@ and (max-device-width: 767px) {
    gap: 5px;
    
   }
+  .circle1>div{
+    margin: auto;
+    }
  
 }
 @media screen and (min-device-width: 768px) {
@@ -959,6 +962,9 @@ and (max-device-width: 767px) {
   }
   .outer{
     margin: 0;
+  }
+  .circle1>div{
+  margin: auto;
   }
 }
 
@@ -972,8 +978,8 @@ and (max-device-width: 767px) {
      
     }
     .circle1>div{
-      margin-left: 80px;
-     
-      justify-content: center;
+      /* margin-left: 80px; */
+    /* justify-content: center; */
+    margin: auto;
     }
 }
