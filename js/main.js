@@ -77,15 +77,15 @@ sr.reveal( ".about-subtitle", { delay: 200 } );
 // SCOLL EDUCATION
 sr.reveal( ".educ", {} );
 sr.reveal( ".educ1", { delay: 100 } );
-sr.reveal( ".educ2", { delay: 200 } );
-sr.reveal( ".educ3", { delay: 300 } );
-sr.reveal( ".educ4", { delay: 400 } );
+sr.reveal( ".educ2", { delay: 100 } );
+sr.reveal( ".educ3", { delay: 100 } );
+sr.reveal( ".educ4", { delay: 100 } );
 
 
 /*SCROLL SKILLS*/
 sr.reveal( ".skills-subtitle", {} );
 sr.reveal( ".skills-text", {} );
-sr.reveal( ".skills-data", { interval: 100 } );
+sr.reveal( ".skills-data", { interval: 1 } );
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/

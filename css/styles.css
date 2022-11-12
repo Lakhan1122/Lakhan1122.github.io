@@ -252,7 +252,7 @@ img {
 }
 .home-imgsrc{
   width:100%;
-  border-radius: 15px;
+  border-radius: 0px;
   margin-top: 30px;
   margin-left: 20px;
   
@@ -571,6 +571,7 @@ and (max-device-width: 767px) {
     /* left:100px; */
     right:20px;
   } 
+
 }
 @media screen and (min-device-width: 768px) {
   body {
@@ -872,6 +873,17 @@ text.ContributionCalendar-label {
     font-size: 11px;
 }
 
+/* stat */
+
+.stat{
+  display: flex;
+ /* margin: auto; */
+}
+.stat>img{
+    height: 350px;
+    margin: auto;
+    
+}
 
 /* statastics */
 
@@ -954,6 +966,10 @@ and (max-device-width: 767px) {
   .circle1>div{
     margin: auto;
     }
+
+   
+   
+   
  
 }
 @media screen and (min-device-width: 768px) {
@@ -983,3 +999,10 @@ and (max-device-width: 767px) {
     margin: auto;
     }
 }
+
+
+
+
+   
+   
+ 
