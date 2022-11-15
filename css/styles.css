@@ -3,8 +3,10 @@
 /*===== VARIABLES CSS =====*/
 
 body{
-  background:#080808;
+  /* background:#080808; */
   color: white;
+  background: rgb(35,161,191);
+  background: linear-gradient(90deg, rgba(35,161,191,0.9699230033810399) 0%, rgba(29,170,152,0.9699230033810399) 51%);
 }
 
 
@@ -16,8 +18,8 @@ body{
 
 /*===== Colores =====*/
 :root {
-  --first-color:  #ff004f;
-  --second-color: #fff;
+  --first-color:  #0a0809;
+  --second-color: rgb(12, 6, 6);
 }
 
 /*===== Fuente y tipografia =====*/
@@ -129,7 +131,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #080808;
+  background-color: #28c4d6;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -149,7 +151,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: rgb(19, 17, 17);
+    background-color: rgb(7, 60, 135);
     transition: 0.5s;
   }
 }
@@ -170,10 +172,10 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #1c87b2;
 }
 .nav-logo {
-  color:  #ff004f;
+  color:#52155b ;
   font-weight: var(--font-semi);
   width: 3rem;
   font-size: 35px;
@@ -208,19 +210,32 @@ img {
 }
 .home-data {
   align-self: center;
-    /* margin-top: -500px; */
   
 }
+.hello{
+  background-color: white;
+  border-radius: 20%;
+  width: fit-content;
+  /* background: rgb(4,39,163); */
+
+}
+#java{
+  color: #1daa8e;
+}
+
 .home-title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+ 
+ 
 }
 .home-title-color {
-  color:#ff004f ;
+  color:#370f3d ;
+  
 }
 .home-title:hover{
   cursor: pointer;
-  /* color:#4070f4; */
+  
 }
 
 .home-social {
@@ -244,7 +259,7 @@ img {
    width: 25%; 
    border-radius: 15px;
 
-   /* border:1px solid red; */
+  
 }
 .home-img:hover {
   color: var(--first-color);
@@ -280,7 +295,7 @@ section.about {
 .z12z{
   width:91%;
   margin: auto;
-  color:grey;
+  color:rgb(10, 8, 8);
   font-weight:600;
 
 }
@@ -314,7 +329,7 @@ section.about {
   padding: 25px;
 
   text-align: center;
-  border: 2px solid teal;
+  border: 2px solid rgb(219, 228, 228);
   margin:auto;
   margin-bottom:20px;
   border-radius: 0.5rem;
@@ -322,13 +337,14 @@ section.about {
 
 }
 .educ:hover {
-  background-color: rgb(62, 55, 55);
+  background-color: rgb(28, 12, 12);
   cursor: pointer;
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  color: white;
 }
 .educ1
 {
-  color:rgb(79, 241, 241);
+  color:rgb(9, 237, 237);
   font-weight: bolder;
 }
 .educ3
@@ -401,7 +417,7 @@ img.man-icons {
 
 
 .skills-data:hover {
-  background-color: rgb(91, 73, 73);
+  background-color: rgb(39, 83, 110);
   cursor: pointer;
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
@@ -457,14 +473,14 @@ img.man-icons {
   margin-bottom: var(--mb-2);
   margin-top: var(--mb-3);
   font-size: var(--h2-font-size);
-  color:rgb(29, 179, 254);
+  color:rgb(19, 87, 121);
   font-weight: bolder;
   text-align: center;
 }
 .project-subtitle {
   margin-bottom: var(--mb-4);
   padding-bottom: 3.5rem;
-  color:white;
+  color:rgb(12, 8, 8);
   font-weight:600;
   text-align: center;
 
@@ -508,8 +524,8 @@ img.man-icons {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: black;
-  color: #fff;
+  background-color: rgb(18, 179, 165);
+  color: rgb(7, 4, 4);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 3.5rem 0;
@@ -533,7 +549,7 @@ img.man-icons {
 }
 .footer-icon {
   font-size: 20px;
-  color: #fff;
+  color: rgb(7, 7, 7);
   margin: 0 var(--mb-2);
 }
 #last{
